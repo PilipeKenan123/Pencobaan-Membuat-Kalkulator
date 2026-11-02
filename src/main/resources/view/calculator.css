@@ -1,0 +1,41 @@
+.root {
+    -fx-background-color: black;
+}
+
+.display {
+    -fx-text-fill: white;
+    -fx-font-size: 64px;
+    -fx-padding: 20 20 10 20;
+}
+
+.calc-button {
+    -fx-font-size: 26px;
+    -fx-background-radius: 40;
+    -fx-cursor: hand;
+}
+
+.calc-button.digit {
+    -fx-background-color: #333333;
+    -fx-text-fill: white;
+}
+.calc-button.digit:hover   { -fx-background-color: #4a4a4a; }
+.calc-button.digit:pressed { -fx-background-color: #6a6a6a; }
+
+.calc-button.function {
+    -fx-background-color: #a5a5a5;
+    -fx-text-fill: black;
+}
+.calc-button.function:hover   { -fx-background-color: #bcbcbc; }
+.calc-button.function:pressed { -fx-background-color: #d9d9d9; }
+
+.calc-button.operator {
+    -fx-background-color: #ff9f0a;
+    -fx-text-fill: white;
+}
+.calc-button.operator:hover   { -fx-background-color: #ffb340; }
+.calc-button.operator:pressed { -fx-background-color: #ffd08a; }
+
+.calc-button.zero {
+    -fx-alignment: CENTER_LEFT;
+    -fx-padding: 0 0 0 32;
+}
